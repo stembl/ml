@@ -13,7 +13,7 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-J = (1/(2*m)).*sum(((theta(1)*X(:,1) + theta(2)*X(:,2)) - y).^2,1)
+J = (1/(2*m)).*sum(((theta(1)*X(:,1) + theta(2)*X(:,2)) - y).^2,1);
 
 
 
